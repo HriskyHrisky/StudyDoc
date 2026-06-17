@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Load KaTeX for LaTeX -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+  
+  <!-- Load Mermaid for diagrams -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>mermaid.initialize({startOnLoad:true});</script>
+</head>
+<body>
+  <h1>My Psy + Lang Notes</h1>
+  
+  <!-- LaTeX Test -->
+  <p>Bayes Theorem: $$P(A|B) = \frac{P(B|A)P(A)}{P(B)}$$</p>
+
+  <!-- Mermaid Test -->
+  <pre class="mermaid">
+  graph TD
+      A[Working Memory] --> B{Is it important?}
+      B -->|Yes| C[Store in Long-Term]
+      B -->|No| D[Forget]
+  </pre>
+</body>
+</html>
