@@ -1,2 +1,4 @@
 # StudyDoc
-Lame projs or thoughtful ideas. idk
+Lame projs or thoughtful ideas. idk.
+test
+
