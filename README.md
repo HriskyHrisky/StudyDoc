@@ -1,2 +1,2 @@
 # StudyDoc
-Lame projs
+Lame projs or thoughtful ideas. idk
